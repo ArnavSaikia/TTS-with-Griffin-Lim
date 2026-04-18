@@ -46,7 +46,7 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--path_to_ljspech", type=str, required=True)
+    parser.add_argument("--path_to_ljspeech", type=str, required=True)
     parser.add_argument("--path_to_save", type=str, required=True)
     parser.add_argument("--seed", type=int, default=42)
 
